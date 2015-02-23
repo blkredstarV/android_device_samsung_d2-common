@@ -32,11 +32,11 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 TARGET_KERNEL_CONFIG        := broken_d2_defconfig
 
 # Custom Kernel Toolchains
-TARGET_GCC_VERSION_AND := 4.9-linaro
-TARGET_GCC_VERSION_ARM := 4.9-linaro
+# TARGET_GCC_VERSION_AND := 4.9-linaro
+# TARGET_GCC_VERSION_ARM := 4.9-linaro
 
 # Broken Optimizations
-BROKEIT := true
+# BROKEIT := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
