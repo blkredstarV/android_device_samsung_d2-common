@@ -36,7 +36,6 @@ KERNEL_TOOLCHAIN_PREFIX := arm-cortex_a7-linux-gnueabihf-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
 TARGET_GCC_VERSION_AND := arm-cortex_a7-linux-gnueabihf-linaro_4.9
 
-
 # Broken Optimizations
 BROKEIT := true
 
