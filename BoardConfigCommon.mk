@@ -32,8 +32,10 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 TARGET_KERNEL_CONFIG        := broken_d2_defconfig
 
 # Custom Kernel Toolchains
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.9-14.06/bin/"
+KERNEL_TOOLCHAIN_PREFIX := arm-cortex_a7-linux-gnueabihf-
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
+TARGET_GCC_VERSION_AND := arm-cortex_a7-linux-gnueabihf-linaro_4.9
+
 
 # Broken Optimizations
 BROKEIT := true
