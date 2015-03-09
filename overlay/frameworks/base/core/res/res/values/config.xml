@@ -282,11 +282,27 @@
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
 
+
     <!-- Panel auto brightness value -->
     <!--integer name="config_panelAutoBrightnessValue">1</integer-->
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
+    <!-- Ambient Display : Dream of Notifications -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Screen brightness when dozing -->
+    <integer name="config_screenBrightnessDoze">10</integer>
+
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
+
+    <!-- Whether UI for multi user should be shown -->
+    <bool name="config_enableMultiUserUI">true</bool>
+
 
     <!-- Performance profiles -->
     <!-- string name="config_perf_profile_prop">sys.perf.profile</string -->
