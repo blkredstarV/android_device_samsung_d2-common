@@ -34,7 +34,7 @@ TARGET_KERNEL_CONFIG        := broken_d2_defconfig
 # Custom Kernel Toolchains
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin"
-TARGET_GCC_VERSION_AND := arm-linux-androideabi-4.9
+TARGET_GCC_VERSION_AND := arm-linux-androideabi-4.9-blkredstarV
 
 # Broken Optimizations
 BROKEIT := true
