@@ -34,7 +34,6 @@ TARGET_KERNEL_CONFIG        := broken_d2_defconfig
 # Custom Kernel Toolchains
 
 # Broken Optimizations
-BROKEIT := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
