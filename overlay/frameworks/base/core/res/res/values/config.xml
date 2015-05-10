@@ -298,7 +298,7 @@
     <integer name="config_screenBrightnessDoze">10</integer>
 
     <!-- Doze: force using accelerometer as pick up sensor -->
-    <bool name="config_dozeUseAccelerometer">true</bool>
+    <!-- bool name="config_dozeUseAccelerometer">true</bool -->
 
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
