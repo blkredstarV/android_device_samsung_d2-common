@@ -32,7 +32,8 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 TARGET_KERNEL_CONFIG        := deathly_d2_defconfig
 
 # Custom Kernel Toolchains
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-linaro/bin/"
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-gnueabi-5.0/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Broken Optimizations
 
