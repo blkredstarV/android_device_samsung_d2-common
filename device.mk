@@ -20,6 +20,10 @@ $(call inherit-product-if-exists, vendor/samsung/d2-common/d2-common-vendor.mk)
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay
 
+# Twrp files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/etc/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Boot animation and screen size
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
