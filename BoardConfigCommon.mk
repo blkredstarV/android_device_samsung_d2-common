@@ -39,6 +39,7 @@ USE_O3 := true
 STRICT := true
 GRAPHITE := true
 LTO := true
+TARGET_ENABLE_UKM := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
