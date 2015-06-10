@@ -35,6 +35,10 @@ TARGET_KERNEL_CONFIG        := deathly_d2_defconfig
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-linaro/bin/"
 
 # Broken Optimizations
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
