@@ -29,7 +29,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/d2-common/include
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Kernel
-TARGET_KERNEL_CONFIG        := deathly_d2_defconfig
+TARGET_KERNEL_CONFIG        := cyanogen_d2_defconfig
 
 # Custom Kernel Toolchains
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin/"
